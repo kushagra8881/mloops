@@ -2,12 +2,12 @@ import pathlib
 import os
 import prediction_module
 PACKAGE_ROOT=pathlib.Path(prediction_module.__file__).resolve().parent
-TRAINED_MODEL_DIR = os.path.join(PACKAGE_ROOT, "trained_models")
+TRAINED_MODEL_DIR = os.path.join(PACKAGE_ROOT, "trainedmodels")
 DATASET_DIR = os.path.join(PACKAGE_ROOT, "datasets")
 TRAIN_FILE="train.csv"
 TEST_FILE="test.csv"
 TARGET='Loan_Status'
-
+MODEL_NAME='ClassificationModel'
 # Features Final
 FEATURES=[ 'Gender', 'Married', 'Dependents', 'Education',
        'Self_Employed', 'ApplicantIncome', 'CoapplicantIncome', 'LoanAmount',
