@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/mlflow/mlruns/976047260084562410/cbf6b58de5974bc7aadb100f2ea660f0/artifacts
+end_time: 1719368386966
+entry_point_name: ''
+experiment_id: '976047260084562410'
+lifecycle_stage: active
+run_id: cbf6b58de5974bc7aadb100f2ea660f0
+run_name: bright-cow-517
+run_uuid: cbf6b58de5974bc7aadb100f2ea660f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719368294130
+status: 3
+tags: []
+user_id: kushagra

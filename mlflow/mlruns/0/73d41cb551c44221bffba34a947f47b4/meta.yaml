@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/mlflow/mlruns/0/73d41cb551c44221bffba34a947f47b4/artifacts
+end_time: 1719367728843
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 73d41cb551c44221bffba34a947f47b4
+run_name: nimble-donkey-621
+run_uuid: 73d41cb551c44221bffba34a947f47b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719367724249
+status: 4
+tags: []
+user_id: kushagra

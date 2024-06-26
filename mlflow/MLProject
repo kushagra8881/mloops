@@ -1,0 +1,10 @@
+name: Loan_prediction
+
+conda_env: python_env.yaml
+
+entry_points:
+  main:
+    command: "python loan_pred.py --alpha {alpha} --l1_ratio {l1_ratio}"
+    parameters:
+      alpha: {type: float, default: 0.2}
+      l1_ratio: {type: float, default: 0.5}

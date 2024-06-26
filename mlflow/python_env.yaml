@@ -1,0 +1,13 @@
+name: loan_pred_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
+  - mlflow
+  - pip
+  - pip:
+      - joblib

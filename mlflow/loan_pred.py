@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn import metrics
 import mlflow
 import os
+import argparse
 
 # Define constants
 RANDOM_SEED = 6
@@ -112,25 +113,37 @@ def eval_metrics(actual, pred):
 
 # Logging function
 def mlflow_logging(model, X, y, name):
-    with mlflow.start_run(run_name=name) as run:
-        run_id = run.info.run_id
-        mlflow.set_tag("run_id", run_id)
-        
-        pred = model.predict(X)
-        accuracy, f1, auc = eval_metrics(y, pred)
-        
-        # Log best parameters
-        mlflow.log_params(model.best_params_)
-        mlflow.log_metric("Mean CV score", model.best_score_)
-        mlflow.log_metric("Accuracy", accuracy)
-        mlflow.log_metric("f1-score", f1)
-        mlflow.log_metric("AUC", auc)
-        
-        mlflow.log_artifact("plots/ROC_curve.png")
-        mlflow.sklearn.log_model(model, name)
-        mlflow.end_run()
+    try:
+        with mlflow.start_run(run_name=name) as run:
+            run_id = run.info.run_id
+            mlflow.set_tag("run_id", run_id)
+            
+            pred = model.predict(X)
+            accuracy, f1, auc = eval_metrics(y, pred)
+            
+            # Log best parameters
+            mlflow.log_params(model.best_params_)
+            mlflow.log_metric("Mean CV score", model.best_score_)
+            mlflow.log_metric("Accuracy", accuracy)
+            mlflow.log_metric("f1-score", f1)
+            mlflow.log_metric("AUC", auc)
+            
+            mlflow.log_artifact("plots/ROC_curve.png")
+            mlflow.sklearn.log_model(model, name)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+    finally:
+        if mlflow.active_run() is not None:
+            mlflow.end_run()
 
-# Logging models
-mlflow_logging(model_tree, X_test, y_test, "DecisionTreeClassifier")
-mlflow_logging(model_log, X_test, y_test, "LogisticRegression")
-mlflow_logging(model_forest, X_test, y_test, "RandomForestClassifier")
+# Main function
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--alpha", "-a", type=float, default=0.2)
+    parser.add_argument("--l1_ratio", '-l1', type=float, default=0.5)
+    args = parser.parse_args()
+    
+    # Logging models
+    mlflow_logging(model_tree, X_test, y_test, "DecisionTreeClassifier")
+    mlflow_logging(model_log, X_test, y_test, "LogisticRegression")
+    mlflow_logging(model_forest, X_test, y_test, "RandomForestClassifier")

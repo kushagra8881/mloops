@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/mlflow/mlruns/294564407748338240/b1204958cabe4ec4aa4ddd727821da1d/artifacts
+end_time: 1719367831935
+entry_point_name: ''
+experiment_id: '294564407748338240'
+lifecycle_stage: active
+run_id: b1204958cabe4ec4aa4ddd727821da1d
+run_name: silent-auk-224
+run_uuid: b1204958cabe4ec4aa4ddd727821da1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719367825244
+status: 3
+tags: []
+user_id: kushagra

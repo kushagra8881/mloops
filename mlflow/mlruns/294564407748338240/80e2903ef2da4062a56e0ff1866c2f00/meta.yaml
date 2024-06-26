@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/mlflow/mlruns/294564407748338240/80e2903ef2da4062a56e0ff1866c2f00/artifacts
+end_time: 1719367805162
+entry_point_name: ''
+experiment_id: '294564407748338240'
+lifecycle_stage: active
+run_id: 80e2903ef2da4062a56e0ff1866c2f00
+run_name: intelligent-dove-504
+run_uuid: 80e2903ef2da4062a56e0ff1866c2f00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719367798645
+status: 3
+tags: []
+user_id: kushagra

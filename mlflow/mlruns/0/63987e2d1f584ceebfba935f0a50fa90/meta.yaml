@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/mlflow/mlruns/0/63987e2d1f584ceebfba935f0a50fa90/artifacts
+end_time: 1719367462408
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 63987e2d1f584ceebfba935f0a50fa90
+run_name: abrasive-midge-60
+run_uuid: 63987e2d1f584ceebfba935f0a50fa90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719367458392
+status: 4
+tags: []
+user_id: kushagra

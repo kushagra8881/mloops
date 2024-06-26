@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/mlflow/mlruns/976047260084562410/cb1d1644af2e4001966d3dd47bb18ab1/artifacts
+end_time: 1719368011728
+entry_point_name: ''
+experiment_id: '976047260084562410'
+lifecycle_stage: active
+run_id: cb1d1644af2e4001966d3dd47bb18ab1
+run_name: RandomForestClassifier
+run_uuid: cb1d1644af2e4001966d3dd47bb18ab1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719368009609
+status: 3
+tags: []
+user_id: kushagra
