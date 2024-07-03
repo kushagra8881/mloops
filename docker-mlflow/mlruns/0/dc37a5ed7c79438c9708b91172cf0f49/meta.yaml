@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/docker-mlflow/mlruns/0/dc37a5ed7c79438c9708b91172cf0f49/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc37a5ed7c79438c9708b91172cf0f49
+run_name: marvelous-smelt-938
+run_uuid: dc37a5ed7c79438c9708b91172cf0f49
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720014596483
+status: 1
+tags: []
+user_id: kushagra

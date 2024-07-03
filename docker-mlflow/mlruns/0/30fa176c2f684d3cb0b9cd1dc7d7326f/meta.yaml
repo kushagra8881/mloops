@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/docker-mlflow/mlruns/0/30fa176c2f684d3cb0b9cd1dc7d7326f/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30fa176c2f684d3cb0b9cd1dc7d7326f
+run_name: rare-toad-942
+run_uuid: 30fa176c2f684d3cb0b9cd1dc7d7326f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720014709416
+status: 1
+tags: []
+user_id: kushagra

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/docker-mlflow/mlruns/0/f1c67880be0643808763421486ff54fa/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1c67880be0643808763421486ff54fa
+run_name: traveling-sow-698
+run_uuid: f1c67880be0643808763421486ff54fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720014792714
+status: 1
+tags: []
+user_id: kushagra

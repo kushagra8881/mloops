@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/docker-mlflow/mlruns/0/3ac7b0ff30bc4c23a6d43c99d7284885/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3ac7b0ff30bc4c23a6d43c99d7284885
+run_name: auspicious-cow-159
+run_uuid: 3ac7b0ff30bc4c23a6d43c99d7284885
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720014549783
+status: 1
+tags: []
+user_id: kushagra

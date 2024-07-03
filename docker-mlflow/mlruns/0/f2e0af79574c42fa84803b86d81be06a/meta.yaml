@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kushagra/Documents/code/AI/mlops/docker-mlflow/mlruns/0/f2e0af79574c42fa84803b86d81be06a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f2e0af79574c42fa84803b86d81be06a
+run_name: illustrious-tern-379
+run_uuid: f2e0af79574c42fa84803b86d81be06a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720014680051
+status: 1
+tags: []
+user_id: kushagra
