@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import wget
 
-model_name = 'RF_Loan_model.joblib'
+model_name = 'my_trained_model_v1.pkl'
 file_url = "https://github.com/kushagra8881/mloops/blob/main/streamlit/my_trained_model_v1.pkl"
 wget.download(file_url)
 model = joblib.load(model_name)
