@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1719498637377
+current_stage: None
+description: ''
+last_updated_timestamp: 1719498637377
+name: pprediction_model_rf
+run_id: 27fc4150ce5f4ebca262fb51b4fb67d9
+run_link: ''
+source: file:///home/kushagra/Documents/code/AI/mlops/mlflow/mlruns/976047260084562410/27fc4150ce5f4ebca262fb51b4fb67d9/artifacts/RandomForestClassifier
+status: READY
+status_message: null
+storage_location: file:///home/kushagra/Documents/code/AI/mlops/mlflow/mlruns/976047260084562410/27fc4150ce5f4ebca262fb51b4fb67d9/artifacts/RandomForestClassifier
+user_id: null
+version: 1

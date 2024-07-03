@@ -54,7 +54,7 @@ pip install mlflow
 `mlflow run . --experiment-name Loan_prediction`  # run from folder where `MLProject` file is present
 
 - Run from git repository
-`mlflow run https://github.com/manifoldailearning/ml-flow-project --experiment-name Loan_prediction` 
+`mlflow run https://github.com/kushagra8881/mloops/tree/901973fcd653d85a2a6b63d09dbae88a31b82086/mlflow--experiment-name Loan_prediction` 
 
 # MLFlow Models
 - install virtualenv
@@ -66,7 +66,7 @@ pip install mlflow
 - Serve the Models with Local REST server
 `mlflow models serve -m runs:/<RUN_ID>/model --port 9000`
 
-`mlflow models serve -m /Users/nachiketh/Desktop/author-repo/Complete-MLOps-BootCamp/MLFlow-Manage-ML-Experiments/mlruns/636758781795674813/91ef1ea3f63d40a7a33c4251dd088618/artifacts/RandomForestClassifier --port 9000`
+`mlflow models serve -m file:///home/kushagra/Documents/code/AI/mlops/mlflow/mlruns/976047260084562410/27fc4150ce5f4ebca262fb51b4fb67d9/artifacts/RandomForestClassifier --port 9000`
 
 
 # Generate Predictions
