@@ -4,7 +4,7 @@ import numpy as np
 import wget
 
 model_name = 'RF_Loan_model.joblib'
-file_url = "https://raw.githubusercontent.com/manifoldailearning/Complete-MLOps-BootCamp/main/Build-ML-App-Streamlit/RF_Loan_model.joblib"
+file_url = "https://github.com/kushagra8881/mloops/blob/main/streamlit/RF_Loan_model.joblib"
 wget.download(file_url)
 model = joblib.load(model_name)
 
