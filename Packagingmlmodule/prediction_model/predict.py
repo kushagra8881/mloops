@@ -16,14 +16,13 @@ import sys
 
 
 
-classifiactio_pipeline=load_pipeline(pipeline_to_load=config.MODEL_NAME)
-def make_prediction():
-    TEST_FILE=os.path.join(config.DATASET_DIR,config.TEST_FILE)
-    data=pd.read_csv(TEST_FILE)
-    prediction=classifiactio_pipeline.predict(data[config.FEATURES])
-    output=np.where(prediction==1,'Y','N')
-    result={'prediction':list(output)}
-    print(result)
+classifiaction_pipeline=load_pipeline(pipeline_to_load=config.MODEL_NAME)
+
+def generate_predictions(data_input):
+    data = pd.DataFrame(data_input)
+    pred = classifiaction_pipeline.predict(data[config.FEATURES])
+    output = np.where(pred==1,'Y','N')
+    result = {"prediction":output}
     return result
 if __name__ == '__main__':
-    make_prediction()
+    generate_predictions()
